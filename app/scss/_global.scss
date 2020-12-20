@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #FEFBFA;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.japan-text {
+    font-size: 24px;
+    margin-bottom: 24px;
+    line-height: 35px;
+    letter-spacing: 0.155em;
+    color: #EAD5CC;
+    font-family: 'NotoSansJP', sans-serif;
+    font-weight: 700;
+}
+
+.section-title {
+    margin-bottom: 23px;
+    font-size: 72px;
+    line-height: 72px;
+    font-family: 'Lena', sans-serif;
+}
+
+.btn {
+    padding: 12px 18px;
+    background: radial-gradient(88.33% 88.33% at 36.3% 11.67%, #FD394F 0%, rgba(245, 15, 73, 0) 100%), #EC045F;
+    border-radius: 50px;
+    font-size: 24px;
+    line-height: 150%;
+    color: white;
+    border: none;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,48 @@
+.hero {
+
+    background-image: url('../images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__container {
+        position: relative;
+        min-height: calc(100vh - 120px);
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 20px;
+            width: 16px;
+            height: 24px;
+            background-image: url('../images/mouse.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__inner {
+        position: absolute;
+        bottom: 35%;
+        max-width: 679px;
+        width: 100%;
+    }
+
+    &__btn {
+        font-size: 24px;
+        font-family: 'Lena', sans-serif;
+    }
+
+    &__text {
+        margin-bottom: 33px;
+        font-size: 22px;
+        line-height: 150%;
+        color: #67544C;
+    }
+
+    &__btn {
+        line-height: 150%;
+    }
+
+}

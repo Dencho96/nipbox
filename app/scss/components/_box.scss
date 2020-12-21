@@ -64,18 +64,5 @@
         padding: 8px 32px;
         font-size: 16px;
         cursor: pointer;
-    }
-
-    &:hover .box__inner {
-        z-index: 5;
-        background-color: white;
-        box-shadow: 0 0 15px -2px $raspberry, inset 0 0 15px -5px $raspberry;
-        transform: scale(1.05);
-    }
-
-    &:hover .box__cart,
-    &:hover .box__descr {
-        display: block;
-        max-height: 110px;
-    }
+    }    
 }

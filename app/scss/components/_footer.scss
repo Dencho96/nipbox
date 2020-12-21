@@ -1,0 +1,39 @@
+.footer {
+    padding: 65px 0 48px;
+    background-color: #F8F1EE;
+
+    &__inner {
+        justify-content: space-between;
+        margin-bottom: 61px;
+    }
+
+    &__col {
+        max-width: 280px;
+        width: 100%;
+        color: #67544C;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        line-height: 27px;
+
+        &+& {
+            margin-left: 15px;
+        }
+    }
+
+    &__title{
+        margin-bottom: 45px;
+        font-family: 'Lena', sans-serif;
+    }
+
+    &__link{
+        color: $raspberry;
+        transition: opacity 0.3s;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+
+    &__logo-inner{
+        text-align: center;
+    }
+}

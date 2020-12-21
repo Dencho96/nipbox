@@ -1,5 +1,5 @@
 .box {
-    position: relative;    
+    position: relative;
     max-width: calc(100% / 4 - 20px);
     width: 100%;
     min-height: 423px;
@@ -17,7 +17,7 @@
 
     &__img {
         max-width: 100%;
-        margin-bottom: 19px;
+        margin-bottom: 10px;
         object-fit: cover;
     }
 
@@ -58,7 +58,7 @@
         color: $raspberry;
     }
 
-    &__cart{
+    &__cart {
         display: none;
         margin: 0 auto;
         padding: 8px 32px;
@@ -66,14 +66,15 @@
         cursor: pointer;
     }
 
-    &:hover .box__inner{
+    &:hover .box__inner {
         z-index: 5;
         background-color: white;
         box-shadow: 0 0 15px -2px $raspberry, inset 0 0 15px -5px $raspberry;
         transform: scale(1.05);
     }
 
-    &:hover .box__cart, &:hover .box__descr{
+    &:hover .box__cart,
+    &:hover .box__descr {
         display: block;
         max-height: 110px;
     }
